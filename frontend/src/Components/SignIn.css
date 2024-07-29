@@ -1,0 +1,21 @@
+/* SignIn.css */
+
+.success-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00cc66; /* Green color for success message */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .success-message.show {
+    display: block;
+    opacity: 1;
+  }
+  
